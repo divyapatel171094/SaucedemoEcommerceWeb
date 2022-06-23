@@ -11,7 +11,7 @@ public class driverSetup extends ObjectRepo{
     public static WebDriver driver = null;
     String url = "";
  //divya test
-
+// divya test 2222222222
     public  driverSetup(){
         if(driver==null){
             setup();
