@@ -18,7 +18,7 @@ public class driverSetup extends ObjectRepo{
             driver.manage().window().maximize();
         }
     }
-    @BeforeTest
+
     public void setupUrl(){
         driver.get(url);
     }
