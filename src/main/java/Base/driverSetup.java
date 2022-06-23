@@ -10,15 +10,15 @@ import org.testng.annotations.BeforeTest;
 public class driverSetup extends ObjectRepo{
     public static WebDriver driver = null;
     String url = "";
- //divya test
-// divya test 2222222222
+
+    //test
     public  driverSetup(){
         if(driver==null){
             setup();
             driver.manage().window().maximize();
         }
     }
-    @BeforeTest
+
     public void setupUrl(){
         driver.get(url);
     }
